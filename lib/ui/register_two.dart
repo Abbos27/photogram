@@ -74,7 +74,7 @@ class _RegisterTwoState extends State<RegisterTwo> {
                     });
                     if (userNameController.text.isNotEmpty) {
                       Navigator.of(context)
-                          .pushNamed(AppRoutes.profile, arguments: {
+                          .pushNamed(AppRoutes.navPage, arguments: {
                         "login": userNameController.text.toString(),
                       });
                     }

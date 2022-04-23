@@ -68,7 +68,6 @@ class _LogInState extends State<LogIn> {
                   ),
                   child: TextFormField(
                     controller: passwordController,
-
                     obscureText: true,
                     maxLines: 1,
                     decoration: InputDecoration(
@@ -104,13 +103,11 @@ class _LogInState extends State<LogIn> {
                       if (loginController.text.isNotEmpty &&
                           passwordController.text.isNotEmpty) {
                         Navigator.of(context)
-                            .pushNamed(AppRoutes.profile, arguments: {
+                            .pushNamed(AppRoutes.navPage, arguments: {
                           "login": loginController.text.toString(),
                           "password": passwordController.text.toString(),
                         });
-                      }else{
-
-                      }
+                      } else {}
                     },
                   ),
                 ),

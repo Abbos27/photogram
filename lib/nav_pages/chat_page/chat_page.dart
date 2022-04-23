@@ -12,7 +12,7 @@ class ChatPage extends StatefulWidget {
 
 class _ChatPageState extends State<ChatPage> {
   List<ChatModel> chats = [
-    ChatModel("assets/images/profile_img_1.png", "James",
+    ChatModel("assets/images/profile_img_1.png", "Jamess",
         "Thank you! That was very helpful!"),
     ChatModel("assets/images/profile_img_2.png", "Will Kenny",
         "I know... I’m trying to get the funds."),
